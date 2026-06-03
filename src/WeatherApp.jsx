@@ -18,7 +18,7 @@ export default function WeatherApp()
  }
     return(
      <div className="weather"> 
-        <h2>Weather ForeCasting </h2>
+        <h2>Skyvora Weather</h2>
         <Searchbox updateinfo={updateinfo}/>
         <InfoBox info={weatherinfo}/>
      </div>
